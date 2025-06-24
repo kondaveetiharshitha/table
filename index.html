@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Table Task</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    h2 {
+      background-color: darkgreen;
+      color: white;
+      padding: 10px;
+      width: fit-content;
+      border-top-right-radius: 30px;
+      border-bottom-right-radius: 30px;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 60%;
+      margin: 20px 0;
+      background-color: #aeeeee;
+    }
+
+    th, td {
+      border: 1px solid #999;
+      text-align: left;
+      padding: 8px;
+    }
+
+    th {
+      background-color: #8cdcdc;
+    }
+
+    .rounded-table {
+      border: 2px solid #666;
+      border-radius: 15px;
+      overflow: hidden;
+    }
+
+    .rounded-table th,
+    .rounded-table td {
+      border: 1px solid #666;
+      border-radius: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Table-Task</h2>
+
+  <!-- First table -->
+  <table>
+    <tr>
+      <th>Firstname</th>
+      <th>Lastname</th>
+      <th>Age</th>
+    </tr>
+    <tr>
+      <td>Jill</td>
+      <td>Smith</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>94</td>
+    </tr>
+    <tr>
+      <td>John</td>
+      <td>Doe</td>
+      <td>80</td>
+    </tr>
+  </table>
+
+  <!-- Second rounded table -->
+  <table class="rounded-table">
+    <tr>
+      <th>Firstname</th>
+      <th>Lastname</th>
+      <th>Age</th>
+    </tr>
+    <tr>
+      <td>Jill</td>
+      <td>Smith</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>94</td>
+    </tr>
+    <tr>
+      <td>John</td>
+      <td>Doe</td>
+      <td>80</td>
+    </tr>
+  </table>
+
+</body>
+</html>
